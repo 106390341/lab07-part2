@@ -26,7 +26,7 @@
 	</nav>
 
 <article>
-<form id="regform action="processbooking.php" method="POST" novalidate="novalidate"" >
+<form id="regform" action="processbooking.php" method="POST" novalidate="novalidate" >
 <fieldset id="person"> 
 	<legend>Your details:</legend>
 	<p><label for="firstname">Enter your Firstname</label>
@@ -42,13 +42,13 @@
 	<fieldset>
 		<legend>Species:</legend>
 			<label for="human">Human</label>
-			<input type="radio" name="species" id="human" class="chkbox" value="M" checked="checked"/><br />
+			<input type="radio" name="species" id="human" class="chkbox" value="Human" checked="checked"/><br />
 			<label for="dwarf">Dwarf</label>
-			<input type="radio" name="species" id="dwarf" class="chkbox" value="D" /><br />
+			<input type="radio" name="species" id="dwarf" class="chkbox" value="Dwarf" /><br />
 			<label for="elf">Elf</label>
-			<input type="radio" name="species" id="elf" class="chkbox" value="E" /><br />
+			<input type="radio" name="species" id="elf" class="chkbox" value="Elf" /><br />
 			<label for="hobbit">Hobbit</label>
-			<input type="radio" name="species" id="hobbit" class="chkbox" value="H" /><br />
+			<input type="radio" name="species" id="hobbit" class="chkbox" value="Hobbit" /><br />
 	</fieldset>
 	
   </fieldset>
