@@ -16,9 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
      $last_name   = sanitise_input($_POST["lastname"]);
      $age         = sanitise_input($_POST["age"]);
      $species     = sanitise_input($_POST["species"]);
-     $bookings    = isset($_POST["accom"]) ? $_POST["accom"] : [];
-     $bookings    = isset($_POST["4day"]) ? $_POST["4day"] : [];
-     $bookings    = isset($_POST["10day"]) ? $_POST["10day"] : [];
+     $bookings = isset($_POST["booking"]) ? $_POST["booking"] : [];
      $menu     = sanitise_input($_POST["food"]);
      $bookday     = sanitise_input($_POST["bookday"]);
      $party_size  = sanitise_input($_POST["partysize"]);

@@ -59,9 +59,9 @@
 			<label for="accom">Accommodation</label>
 			<input type="checkbox" name="accom" id="accom" value="Accomodation" /><br />
 			<label for="4day">4 Day Tour</label>
-			<input type="checkbox" name="4day" id="4day" value="4day" /><br />
+			<input type="checkbox" name="4day" id="4day" value="Four-day tour" /><br />
 			<label for="10day">10 Day Tour</label>
-			<input type="checkbox" name="10day" id="10day" value="10day" /><br />
+			<input type="checkbox" name="10day" id="10day" value="One-day tour" /><br />
 	</fieldset>
 	<p>
 		<label for="food">Menu preferences</label>
